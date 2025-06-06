@@ -1,0 +1,59 @@
+# Environment files
+/.env
+/.env.*
+
+# IDE and editor settings
+/.idea
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Composer dependencies
+/vendor/
+
+# Node dependencies and build artifacts
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/dist/
+/build/
+/public/cpresources/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# DDEV
+/.ddev/.env
+/.ddev/db_snapshots/
+/.ddev/import-db/
+/.ddev/import-files/
+/.ddev/sequelpro.spf
+/.ddev/.downloads/
+/.ddev/.gitignore
+
+# Craft CMS specific
+/storage/
+web/cpresources/
+web/assets/
+web/uploads/
+web/transforms/
+web/runtime/
+web/userphotos/
+
+# Backup and log files
+*.log
+*.sql
+*.sqlite
+*.bak
+*.tmp
+*.zip
+*.tar.gz
+*.gz
+*.tgz
+
+# Misc
+.envrc
+.idea/
+*.swp
