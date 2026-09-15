@@ -15,6 +15,9 @@ $isDev = App::env('CRAFT_ENVIRONMENT') === 'dev';
 $isProd = App::env('CRAFT_ENVIRONMENT') === 'production';
 
 return GeneralConfig::create()
+    ->aliases([
+        '@webroot' => dirname(__DIR__) . '/web',
+    ])
     // Set the default week start day for date pickers (0 = Sunday, 1 = Monday, etc.)
     ->defaultWeekStartDay(1)
     // Prevent generated URLs from including "index.php"
