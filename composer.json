@@ -28,10 +28,15 @@
       "craftcms/plugin-installer": true,
       "yiisoft/yii2-composer": true
     },
+    "policy": {
+      "advisories": {
+        "block": false
+      }
+    },
     "sort-packages": true,
     "optimize-autoloader": true,
     "platform": {
-      "php": "8.1.7"
+      "php": "8.3.0"
     }
   },
   "scripts": {

@@ -1,4 +1,4 @@
-dateModified: 1749391475
+dateModified: 1789514243
 elementSources:
   craft\elements\Entry:
     -
@@ -234,10 +234,6 @@ fs:
       path: '@webroot/photos'
     type: craft\fs\Local
     url: '@web/photos'
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
 meta:
   __names__:
     0a804e5e-1a24-497d-a7bf-9731f78112d8: 'Gallery Item' # Gallery Item
@@ -301,10 +297,6 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
-  cp-clearcache:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
   cp-css:
     edition: standard
     enabled: true
@@ -313,10 +305,6 @@ plugins:
       additionalCss: "ul#alerts li{\r\n    display: none !important;\r\n}"
       cacheBusting: true
       cssFile: ''
-  cp-field-inspect:
-    edition: standard
-    enabled: true
-    schemaVersion: 1.0.0
   expanded-singles:
     edition: standard
     enabled: true
@@ -439,7 +427,7 @@ system:
   live: true
   name: 'Celeste Hanlon'
   retryDuration: null
-  schemaVersion: 4.15.0.0
+  schemaVersion: 4.17.0.3
   timeZone: America/New_York
 users:
   allowPublicRegistration: false
