@@ -1,4 +1,4 @@
-dateModified: 1749237911
+dateModified: 1749391475
 elementSources:
   craft\elements\Entry:
     -
@@ -26,7 +26,7 @@ elementSources:
         - postDate
         - 'field:1aebd8e7-251a-4e04-be61-f87dfde4e0ce' # Category
         - 'field:7cfcd554-f789-4144-a909-d1df4ba3ba6f' # Price
-        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6' # Featured
+        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6'
         - 'field:0fec8553-9509-41e1-a7fb-e4dc3ade19ce' # Photo
         - link
       type: native
@@ -56,7 +56,7 @@ elementSources:
       tableAttributes:
         - link
         - 'field:0fec8553-9509-41e1-a7fb-e4dc3ade19ce' # Photo
-        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6' # Featured
+        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6'
       type: custom
     -
       condition:
@@ -78,7 +78,7 @@ elementSources:
       tableAttributes:
         - link
         - 'field:0fec8553-9509-41e1-a7fb-e4dc3ade19ce' # Photo
-        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6' # Featured
+        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6'
       type: custom
     -
       condition:
@@ -99,7 +99,7 @@ elementSources:
       label: Embroidery
       tableAttributes:
         - section
-        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6' # Featured
+        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6'
         - 'field:0fec8553-9509-41e1-a7fb-e4dc3ade19ce' # Photo
         - postDate
       type: custom
@@ -123,7 +123,7 @@ elementSources:
       tableAttributes:
         - link
         - 'field:0fec8553-9509-41e1-a7fb-e4dc3ade19ce' # Photo
-        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6' # Featured
+        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6'
       type: custom
     -
       condition:
@@ -144,7 +144,7 @@ elementSources:
       label: Paintings
       tableAttributes:
         - link
-        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6' # Featured
+        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6'
         - 'field:0fec8553-9509-41e1-a7fb-e4dc3ade19ce' # Photo
       type: custom
     -
@@ -166,7 +166,7 @@ elementSources:
       label: 'Pen and Ink'
       tableAttributes:
         - link
-        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6' # Featured
+        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6'
         - 'field:0fec8553-9509-41e1-a7fb-e4dc3ade19ce' # Photo
       type: custom
     -
@@ -188,7 +188,7 @@ elementSources:
       label: Sculpture
       tableAttributes:
         - link
-        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6' # Featured
+        - 'field:ffe73972-cec1-4371-b0b1-db43732696b6'
         - 'field:0fec8553-9509-41e1-a7fb-e4dc3ade19ce' # Photo
       type: custom
     -
@@ -292,7 +292,6 @@ meta:
     f70b07fc-6eb3-4b53-8e0c-31818172636d: 'Public Schema' # Public Schema
     f242565a-a345-41ba-a754-21e6101195d9: Type # Type
     ff5d000b-7f43-46bc-95c6-1eb882983681: 'Banner Text' # Banner Text
-    ffe73972-cec1-4371-b0b1-db43732696b6: Featured # Featured
 plugins:
   ckeditor:
     edition: standard
@@ -329,10 +328,10 @@ plugins:
     schemaVersion: 1.0.0
     settings:
       allowUpScaledImageVariants: true
-      assetVolumeSubFolders: true
+      assetVolumeSubFolders: false
       autoSharpenScaledImages: true
       capSilhouetteSvgSize: true
-      createColorPalette: true
+      createColorPalette: false
       createPlaceholderSilhouettes: false
       imageTransformTypeSettings:
         __assoc__:

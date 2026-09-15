@@ -1,48 +1,41 @@
-# Environment files
+# Environment
 /.env
 /.env.*
+!/.env.example
 
-# IDE and editor settings
-/.idea
-.vscode/
-*.sublime-workspace
-*.sublime-project
-
-# Composer dependencies
+# Dependencies
 /vendor/
-
-# Node dependencies and build artifacts
 /node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-/dist/
-/build/
-/public/cpresources/
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Craft runtime and generated files
+/storage/
+/web/cpresources/
+/web/assets/
+/web/uploads/
+/web/transforms/
+/web/runtime/
+/web/userphotos/
+/config/project/..*/
 
-# DDEV
+# DDEV runtime files
 /.ddev/.env
+/.ddev/.downloads/
 /.ddev/db_snapshots/
 /.ddev/import-db/
 /.ddev/import-files/
 /.ddev/sequelpro.spf
-/.ddev/.downloads/
-/.ddev/.gitignore
 
-# Craft CMS specific
-/storage/
-web/cpresources/
-web/assets/
-web/uploads/
-web/transforms/
-web/runtime/
-web/userphotos/
+# Accidental nested repository
+/main/
 
-# Backup and log files
+# Build artifacts
+/dist/
+/build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backups and logs
 *.log
 *.sql
 *.sqlite
@@ -50,10 +43,14 @@ web/userphotos/
 *.tmp
 *.zip
 *.tar.gz
-*.gz
 *.tgz
 
-# Misc
-.envrc
-.idea/
+# Local tooling and OS files
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
 *.swp
+.DS_Store
+Thumbs.db
+.envrc

@@ -44,7 +44,7 @@ fieldLayouts:
             width: 75
           -
             elementCondition: null
-            fieldUid: ffe73972-cec1-4371-b0b1-db43732696b6 # Featured
+            fieldUid: ffe73972-cec1-4371-b0b1-db43732696b6
             instructions: null
             label: null
             required: false

@@ -58,7 +58,7 @@
 <div class="max-w-6xl mx-auto py-6 px-4" data-aos="fade-up">
     <h2 class="text-3xl font-light my-4">{{ category.title }}</h2>
     
-        {% set entries = craft.entries.section('galleryItem').relatedTo(category).featured(true).limit(4) %}
+        {% set entries = craft.entries.section('galleryItem').relatedTo(category).limit(4) %}
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10">
         {% for entry in entries %}
        
